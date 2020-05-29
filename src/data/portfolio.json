@@ -1,0 +1,70 @@
+{
+    "title": "Portfolio",
+
+    "products":
+    [
+        {
+            "id": 1,
+            "name": {
+                "da": "Produkt nr. 1",
+                "en": "Product no. 1"
+            },
+            "description": {
+                "da": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                "en": "consectetur adipiscing elit, sed tempor and vitality, so that the labor and sorrow, some important things to do eiusmod. Over the years, I will come, who will nostrud aliquip out of her the advantage of exercise, so that stimulus efforts if the school district and longevity. Want to be a pain in the cupidatat cillum has been criticized in the Duis et dolore magna flee produces no resultant pleasure."
+            },
+            "decade":"1990-1999",
+            "year":"1996",
+            "image":"drawing.jpg",
+            "video":"",
+            "icon":"book_icon.png",
+            "my_role":"Developer",
+            "technologies":
+            [
+                "C++"
+            ]
+        },
+        {
+            "id": 2,
+            "name": {
+                "da": "Produkt nr. 2",
+                "en": "Product no. 2"
+            },
+            "description": {
+                "da": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+                "en": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy."
+            },
+            "decade":"2010-2019",
+            "year":"2016",
+            "image":"",
+            "video":"video.mp4",
+            "icon":"screen_icon.png",
+            "my_role":"Designer",
+            "technologies":
+            [
+                "ActionScript", "HTML"
+            ]
+        },
+        {
+            "id": 3,
+            "name": {
+                "da": "Produkt nr. 3",
+                "en": "Product no. 3"
+            },
+            "description": {
+                "da": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+                "en": "Welcome the pains and troubles which the pleasures are blinded are deleniti a desire for, and do not act corruptly by whom they provide in, the duties of those who deserted the general's want of spirit, and in the same chapter be at fault, that is, of his labor and painful."
+            },
+            "decade":"2020-",
+            "year":"2020",
+            "image":"",
+            "video":"video.mp4",
+            "icon":"screen_icon.png",
+            "my_role":"Designer",
+            "technologies":
+            [
+                "JavaScript", "HTML", "CSS"
+            ]
+        }
+   ]
+}
