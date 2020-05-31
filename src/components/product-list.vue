@@ -23,13 +23,15 @@
 
 <style scoped>
     div {
-        border-color: lime;
-        font-size: 12px;
-        color: black;
         flex-grow: 1;
+        margin: 5px;
+        min-width: 25rem;
     }
     .product-list-header {
-        height: 2em;
+        height: 2.5em;
+        line-height: 2.5em;
+        font-size: 1.3rem;
         text-align: center;
+        background-color: #f9f3c5;
     }
 </style>

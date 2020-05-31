@@ -17,7 +17,7 @@
             "year":"1996",
             "image":"drawing.jpg",
             "video":"",
-            "icon":"book_icon.png",
+            "icon":"gameicon.png",
             "my_role":"Developer",
             "technologies":
             [
@@ -38,11 +38,11 @@
             "year":"2016",
             "image":"",
             "video":"video.mp4",
-            "icon":"screen_icon.png",
+            "icon":"frameworkicon.png",
             "my_role":"Designer",
             "technologies":
             [
-                "ActionScript", "HTML"
+                "Flash, ActionScript 3", "HTML5, CSS, JavaScript"
             ]
         },
         {
@@ -59,11 +59,11 @@
             "year":"2020",
             "image":"",
             "video":"video.mp4",
-            "icon":"screen_icon.png",
+            "icon":"gameicon.png",
             "my_role":"Designer",
             "technologies":
             [
-                "JavaScript", "HTML", "CSS"
+                "HTML5, CSS, JavaScript"
             ]
         }
    ]

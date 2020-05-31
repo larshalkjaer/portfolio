@@ -36,7 +36,7 @@
             return {
                 currentItemID: 0,
                 showDetails: false,
-                sortingKey: '',
+                sortingKey: 'my_role',
                 language: 'da',
                 appdata: AppData
             }
@@ -101,28 +101,14 @@
 </script>
 
 <style>
-    div {
-        border-style: solid;
-        border-color: coral;
-        border: 1 px;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
     #app {
-        font-family: Helvetica, Arial, sans-serif;
-    }
-    .button {
-        background-color: #4CAF50; /* Green */
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
     }
     .appheader {
         display: flex;
+        background-color: #87aab9;
     }
     @media screen and (max-width: 480px) {
         .appheader {
@@ -137,6 +123,4 @@
     .product-list {
         flex-grow: 1;
     }
-    /* .product-list-item-details {
-    } */
 </style>

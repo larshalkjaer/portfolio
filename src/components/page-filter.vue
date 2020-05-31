@@ -1,5 +1,5 @@
 <template>
-    <div>(filters)</div>
+    <div></div>
 </template>
 
 <script>
@@ -12,6 +12,6 @@
     div {
         font-size: 12px;
         color: black;
-        flex-grow: 1;
+        flex-grow: 2;
     }
 </style>

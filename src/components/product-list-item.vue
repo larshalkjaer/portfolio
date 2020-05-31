@@ -1,13 +1,22 @@
 <template>
-    <div @click="onItemClick(productitem.id)">
-        <p class="title">{{productitem.name[language]}}</p>
-        <img class="icon" :src="'assets/' + productitem.icon">
+    <div class="product-list-item" @click="onItemClick(productitem.id)">
+        <div class="icon">
+            <img class="icon-image" :src="'assets/' + productitem.icon">
+        </div>
+        <h3>{{productitem.name[language]}}</h3>
+        <tech-list :techlist="productitem.technologies" direction="horizontal"></tech-list>
     </div>
 </template>
 
 <script>
+    import TechList from './tech-list.vue'
+
     export default {
         props: ['productitem', 'language'],
+
+        components: {
+            TechList
+        },
 
         methods: {
             onItemClick: function(item)
@@ -24,17 +33,29 @@
 </script>
 
 <style scoped>
-    div {
-        border-color: tomato;
-        font-size: 12px;
+    product-list-item {
         color: black;
         width: 100%;
-        min-width: 25em;
+        padding: 5px;
     }
-    .title {
+    h3 {
+        font-size:1.2rem;
+        border-bottom: 2px solid #de1818;
+        margin: 32px 0 0;
+        padding: 0 0 8px;
     }
     .icon {
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
+        position: relative;
+        float: right;
+        border-radius: 50%;
+        border: 2px solid #de1818;
+        margin-top: 10px;
+        pointer-events: none;
+    }
+    .icon-image {
+        width: 40px;
+        height: 40px;
     }
 </style>
