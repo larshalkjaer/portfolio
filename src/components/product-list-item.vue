@@ -4,7 +4,7 @@
             <img class="icon-image" :src="'assets/' + productitem.icon">
         </div>
         <h3>{{productitem.name[language]}}</h3>
-        <tech-list :techlist="productitem.technologies" direction="horizontal"></tech-list>
+        <tech-list class="techlist" :techlist="productitem.technologies" direction="horizontal"></tech-list>
     </div>
 </template>
 
@@ -24,7 +24,7 @@
                 let vm = this.$parent;
                 while(vm)
                 {
-                    vm.$emit('itemClicked', item);
+                    vm.$emit('product-list-item-clicked', item);
                     vm = vm.$parent;
                 }
             }
@@ -33,16 +33,17 @@
 </script>
 
 <style scoped>
-    product-list-item {
-        color: black;
+    div.product-list-item {
         width: 100%;
         padding: 5px;
+        cursor: pointer;
     }
     h3 {
         font-size:1.2rem;
         border-bottom: 2px solid #de1818;
-        margin: 32px 0 0;
+        margin: 0;
         padding: 0 0 8px;
+        cursor: pointer;
     }
     .icon {
         width: 40px;
@@ -52,10 +53,12 @@
         border-radius: 50%;
         border: 2px solid #de1818;
         margin-top: 10px;
-        pointer-events: none;
     }
     .icon-image {
         width: 40px;
         height: 40px;
+    }
+    .techlist {
+        margin: 10px 0 20px 0;
     }
 </style>

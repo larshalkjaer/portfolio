@@ -25,9 +25,6 @@
 </script>
 
 <style scoped>
-    .techlist {
-        margin: 5px 0;
-    }
     .techlist-list-horizontal {
         display: inline;
     }

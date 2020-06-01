@@ -1,44 +1,49 @@
 <template>
     <div id="app">
         <div class="appheader">
-            <page-header :pageTitle="appdata.title" />
-            <page-filter />
+            <page-header class="page-header" :pageTitle="$translation.texts.title" />
+            <page-options class="page-options" :language="language" @option-select-sort="selectSortOption($event)" @option-select-language="selectLanguageOption($event)"/>
         </div>
         <div class="product-table" v-if="!showDetails">
             <div class="product-list" v-for="listitem in sortedProductList" :key="listitem.header">
-                <product-list @itemClicked="showProductItem($event)" :header="listitem.header" :items="listitem.items" :language="language" />
+                <product-list @product-list-item-clicked="showProductItem($event)" :header="listitem.header" :items="listitem.items" :language="language" />
             </div>
         </div>
         <div class="product-list-item-details" v-else>
-            <product-list-item-details @backButtonClicked="showItemDetails(false)" :productitem="currentProductItem" :language="language" />
+            <product-list-item-details @back-button-clicked="showItemDetails(false)" :productitem="currentProductItem" :language="language" />
         </div>
     </div>
 </template>
 
 <script>
     import PageHeader from './components/page-header.vue'
-    import PageFilter from './components/page-filter.vue'
+    import PageOptions from './components/page-options.vue'
     import ProductList from './components/product-list.vue'
     import ProductListItemDetails from './components/product-list-item-details.vue'
     import AppData from './data/portfolio.json'
+
 
     export default {
         name: 'app',
 
         components: {
             PageHeader,
-            PageFilter,
+            PageOptions,
             ProductList,
             ProductListItemDetails
         },
         
+        created: function () {
+            this.$translation.texts = AppData.texts;
+        },
+
         data: function() {
             return {
                 currentItemID: 0,
                 showDetails: false,
-                sortingKey: 'my_role',
+                sortingKey: '',
                 language: 'da',
-                appdata: AppData
+                products: AppData.products
             }
         },
 
@@ -69,9 +74,9 @@
             buildProductList: function(sortingkey)
             {
                 var sortedlist = [];
-                for (let idx = 0; idx < this.appdata.products.length; idx++)
+                for (let idx = 0; idx < this.products.length; idx++)
                 {
-                    var item = this.appdata.products[idx];
+                    var item = this.products[idx];
                     this.addItemToList(item, sortedlist, sortingkey);
                 }
                 return sortedlist;
@@ -94,7 +99,17 @@
 
             getItemByID: function(itemid)
             {
-                return this.appdata.products.find(function(item) {return (item.id === itemid);}) || {};
+                return this.products.find(function(item) {return (item.id === itemid);}) || {};
+            },
+
+            selectSortOption: function(option)
+            {
+                this.sortingKey = option;
+            },
+
+            selectLanguageOption: function(option)
+            {
+                this.language = option;
             }
         }
     }
@@ -107,13 +122,19 @@
         font-family: 'Roboto', sans-serif;
     }
     .appheader {
-        display: flex;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
         background-color: #87aab9;
+        width: 100%;
     }
-    @media screen and (max-width: 480px) {
-        .appheader {
-            flex-direction: column;       
-        }
+    .page-header {
+        /* flex-grow: 1; */
+        /* min-width: 20rem; */
+    }
+    .page-options {
+        display: none;
+        /* flex-grow: 1; */
+        /* min-width: 20rem; */
     }
     .product-table {
         display: flex;
@@ -122,5 +143,8 @@
     }
     .product-list {
         flex-grow: 1;
+    }
+    .product-list-item-details {
+        margin: 10px 10px
     }
 </style>

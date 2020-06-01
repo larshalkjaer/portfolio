@@ -17,8 +17,6 @@
         margin: 5px;
     }
     .page-title {
-        width: 200px;
-        flex-grow: 1;
         margin: 5px 5px 5px 10px;
     }
 </style>

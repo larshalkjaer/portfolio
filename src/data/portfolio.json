@@ -1,5 +1,47 @@
 {
-    "title": "Portfolio",
+    "texts": {
+        "title": "Portfolio",
+        "backbutton_caption": {
+            "da": "<< Tilbage til liste",
+            "en": "<< Back to list"
+        },
+        "techlist_caption": {
+            "da": "Anvendte teknologier: ",
+            "en": "Technologies used: "
+        },
+        "resources_caption": {
+            "da": "Resourcer: ",
+            "en": "Resources: "
+        },
+        "role_caption": {
+            "da": "Min rolle: ",
+            "en": "My role: "
+        },
+        "year_caption": {
+            "da": "År: ",
+            "en": "Year: "
+        },
+        "sortoptions": {
+            "da": {
+                "Ingen": "",
+                "Teknologier": "technologies",
+                "Årti": "decade",
+                "Min rolle": "role",
+                "App type": "apptype"
+            },
+            "en": {
+                "None": "",
+                "Technologies": "technologies",
+                "Decade": "decade",
+                "My role": "role",
+                "App type": "apptype"
+            }
+        }        ,
+        "languageoptions": {
+            "Dansk": "da",
+            "Engelsk": "en"
+        }
+    },
 
     "products":
     [
@@ -17,8 +59,11 @@
             "year":"1996",
             "image":"drawing.jpg",
             "video":"",
+            "apptype": "Game",
             "icon":"gameicon.png",
-            "my_role":"Developer",
+            "role":"Developer",
+            "resources": {"da": "", "en": ""},
+            "resourcelink": "resources/islmanualexample.pdf",
             "technologies":
             [
                 "C++"
@@ -36,10 +81,15 @@
             },
             "decade":"2010-2019",
             "year":"2016",
-            "image":"",
-            "video":"video.mp4",
+            "image":"drawing.jpg",
+            "video":"",
+            "apptype": "Framework",
             "icon":"frameworkicon.png",
-            "my_role":"Designer",
+            "role":"Designer",
+            "resources": {
+                "da": "Et par eksempler på dokumentation for ISL scriptsproget: <a href='resources/isl_guide_uddrag.pdf' target='_blank'>Bruger guide</a> og <a href='resources/isl_fortolker_opcodes.pdf' target='_blank'>Fortolkerens opcodes</a>.",
+                "en": "A couple of examples of documentation for the ISL script language: <a href='resources/isl_guide_uddrag.pdf' target='_blank'>User guide</a> og <a href='resources/isl_fortolker_opcodes.pdf' target='_blank'>Interpreter opcodes</a>."
+            },
             "technologies":
             [
                 "Flash, ActionScript 3", "HTML5, CSS, JavaScript"
@@ -59,8 +109,10 @@
             "year":"2020",
             "image":"",
             "video":"video.mp4",
+            "apptype": "Game",
             "icon":"gameicon.png",
-            "my_role":"Designer",
+            "role":"Designer",
+            "resources": {"da": "", "en": ""},
             "technologies":
             [
                 "HTML5, CSS, JavaScript"
