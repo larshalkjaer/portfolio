@@ -7,24 +7,26 @@
 </template>
 
 <script>
-    let selectedoption =  '';
-
     export default {
         props: ['options', 'eventpostfix'],
+
+        created: function () {
+            this.selectedoption =  ''
+        },
 
         methods: {
             SelectedOption: function()
             {
-                return selectedoption;
+                return this.selectedoption;
             },
 
             onItemSelect: function(item)
             {
-                selectedoption = item.target.value;
+                this.selectedoption = item.target.value;
                 let vm = this.$parent;
                 while(vm)
                 {
-                    vm.$emit('option-select-' + this.eventpostfix, selectedoption);
+                    vm.$emit('option-select-' + this.eventpostfix, this.selectedoption);
                     vm = vm.$parent;
                 }
             }
