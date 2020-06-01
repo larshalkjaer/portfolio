@@ -4,7 +4,7 @@
             <img class="icon-image" :src="'assets/' + productitem.icon">
         </div>
         <h3>{{productitem.name[language]}}</h3>
-        <tech-list class="techlist" :techlist="productitem.technologies" direction="horizontal"></tech-list>
+        <tech-list class="techlist" :techlist="productitem.tech" :language="language" direction="horizontal"></tech-list>
     </div>
 </template>
 
@@ -46,13 +46,13 @@
         cursor: pointer;
     }
     .icon {
-        width: 40px;
-        height: 40px;
+        width: 44px;
+        height: 44px;
         position: relative;
         float: right;
         border-radius: 50%;
         border: 2px solid #de1818;
-        margin-top: 10px;
+        margin-top: 9px;
     }
     .icon-image {
         width: 40px;

@@ -23,15 +23,15 @@
         },
         "sortoptions": {
             "da": {
-                "Ingen": "",
-                "Teknologier": "technologies",
+                "Sortering (ingen)": "none",
+                "Teknologier": "tech",
                 "Årti": "decade",
                 "Min rolle": "role",
                 "App type": "apptype"
             },
             "en": {
-                "None": "",
-                "Technologies": "technologies",
+                "Sorting (none)": "none",
+                "Technologies": "tech",
                 "Decade": "decade",
                 "My role": "role",
                 "App type": "apptype"
@@ -39,7 +39,63 @@
         }        ,
         "languageoptions": {
             "Dansk": "da",
-            "Engelsk": "en"
+            "English": "en"
+        },
+        "sortkeynames": {
+            "none": {
+                "da": {
+                    "none": "Alle"
+                },
+                "en": {
+                    "none": "All"
+                }
+            },
+            "role": {
+                "da": {
+                    "developer": "Udvikler",
+                    "designer": "Designer"
+                },
+                "en": {
+                    "developer": "Develoepr",
+                    "designer": "Designer"
+                }
+            },
+            "tech": {
+                "da": {
+                    "cpp": "C++",
+                    "flashas3": "Flash og ActionScript 3",
+                    "htmlcssjs": "HTML5, CSS og JavaScript"
+                },
+                "en": {
+                    "cpp": "C++",
+                    "flashas3": "Flash and ActionScript 3",
+                    "htmlcssjs": "HTML5, CSS and JavaScript"
+                }
+            },
+            "decade": {
+                "da": {
+                    "90": "1990-1999",
+                    "00": "2000-2009",
+                    "10": "2010-2019",
+                    "20": "2020-"
+                },
+                "en": {
+                    "90": "1990-1999",
+                    "00": "2000-2009",
+                    "10": "2010-2019",
+                    "20": "2020-"
+                }
+            },
+            "apptype": {
+                "da": {
+                    "game": "Spil",
+                    "framework": "Framework"
+                },
+                "en": {
+                    "game": "Game",
+                    "framework": "Framework"
+                }
+            }
         }
     },
 
@@ -55,18 +111,18 @@
                 "da": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
                 "en": "consectetur adipiscing elit, sed tempor and vitality, so that the labor and sorrow, some important things to do eiusmod. Over the years, I will come, who will nostrud aliquip out of her the advantage of exercise, so that stimulus efforts if the school district and longevity. Want to be a pain in the cupidatat cillum has been criticized in the Duis et dolore magna flee produces no resultant pleasure."
             },
-            "decade":"1990-1999",
+            "decade":"90",
             "year":"1996",
             "image":"drawing.jpg",
             "video":"",
-            "apptype": "Game",
+            "apptype": "game",
             "icon":"gameicon.png",
-            "role":"Developer",
+            "role":"developer",
             "resources": {"da": "", "en": ""},
             "resourcelink": "resources/islmanualexample.pdf",
-            "technologies":
+            "tech":
             [
-                "C++"
+                "cpp"
             ]
         },
         {
@@ -79,20 +135,20 @@
                 "da": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
                 "en": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy."
             },
-            "decade":"2010-2019",
+            "decade":"10",
             "year":"2016",
             "image":"drawing.jpg",
             "video":"",
-            "apptype": "Framework",
+            "apptype": "framework",
             "icon":"frameworkicon.png",
-            "role":"Designer",
+            "role":"designer",
             "resources": {
                 "da": "Et par eksempler på dokumentation for ISL scriptsproget: <a href='resources/isl_guide_uddrag.pdf' target='_blank'>Bruger guide</a> og <a href='resources/isl_fortolker_opcodes.pdf' target='_blank'>Fortolkerens opcodes</a>.",
                 "en": "A couple of examples of documentation for the ISL script language: <a href='resources/isl_guide_uddrag.pdf' target='_blank'>User guide</a> og <a href='resources/isl_fortolker_opcodes.pdf' target='_blank'>Interpreter opcodes</a>."
             },
-            "technologies":
+            "tech":
             [
-                "Flash, ActionScript 3", "HTML5, CSS, JavaScript"
+                "flashas3", "htmlcssjs"
             ]
         },
         {
@@ -105,17 +161,40 @@
                 "da": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
                 "en": "Welcome the pains and troubles which the pleasures are blinded are deleniti a desire for, and do not act corruptly by whom they provide in, the duties of those who deserted the general's want of spirit, and in the same chapter be at fault, that is, of his labor and painful."
             },
-            "decade":"2020-",
+            "decade":"20",
             "year":"2020",
             "image":"",
             "video":"video.mp4",
-            "apptype": "Game",
+            "apptype": "game",
             "icon":"gameicon.png",
-            "role":"Designer",
+            "role":"designer",
             "resources": {"da": "", "en": ""},
-            "technologies":
+            "tech":
             [
-                "HTML5, CSS, JavaScript"
+                "htmlcssjs"
+            ]
+        },
+        {
+            "id": 34,
+            "name": {
+                "da": "Produkt nr. 4",
+                "en": "Product no. 4"
+            },
+            "description": {
+                "da": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+                "en": "Welcome the pains and troubles which the pleasures are blinded are deleniti a desire for, and do not act corruptly by whom they provide in, the duties of those who deserted the general's want of spirit, and in the same chapter be at fault, that is, of his labor and painful."
+            },
+            "decade":"90",
+            "year":"1991",
+            "image":"",
+            "video":"video.mp4",
+            "apptype": "game",
+            "icon":"gameicon.png",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
+            "tech":
+            [
+                "htmlcssjs"
             ]
         }
    ]

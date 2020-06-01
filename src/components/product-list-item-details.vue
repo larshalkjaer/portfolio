@@ -14,14 +14,14 @@
             <p class="description">{{productitem.description[language]}}</p>
 
             <p class="techlist-caption">{{this.$translation.texts.techlist_caption[language]}}</p>
-            <tech-list class="techlist" :techlist="productitem.technologies" direction="vertical"></tech-list>
+            <tech-list class="techlist" :techlist="productitem.tech" :language="language" direction="vertical"></tech-list>
             <p  class="resources" v-if="productitem.resources[language]">
                 <span class="resources-caption">{{this.$translation.texts.resources_caption[language]}}</span>
                 <span v-html="productitem.resources[language]">{{productitem.resources[language]}}}</span>
             </p>
             <p class="role">
                 <span class="role-caption">{{this.$translation.texts.role_caption[language]}}</span>
-                <span>{{productitem.role}}</span>
+                <span>{{this.$translation.texts.sortkeynames.role[language][productitem.role]}}</span>
             </p>
             <p class="year">
                 <span class="year-caption">{{this.$translation.texts.year_caption[language]}}</span>
@@ -58,8 +58,8 @@
         padding: 0 0 8px;
     }
     .icon {
-        width: 80px;
-        height: 80px;
+        width: 84px;
+        height: 84px;
         position: relative;
         float: right;
         border-radius: 50%;
@@ -131,8 +131,8 @@
             width: 100%;
         }
         .icon {
-            width: 40px;
-            height: 40px;
+            width: 44px;
+            height: 44px;
             margin-top: 24px;
         }
         .icon-image {

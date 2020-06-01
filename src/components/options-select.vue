@@ -34,6 +34,7 @@
 
 <style scoped>
     .select {
-        padding: 0.3rem 0;
+        padding: 0.2rem 0.5rem;
+        background-color: #ffffff;
     }
 </style>

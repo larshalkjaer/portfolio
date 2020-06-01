@@ -23,9 +23,7 @@
 
 <style scoped>
     div {
-        flex-grow: 1;
         margin: 5px;
-        min-width: 25rem;
     }
     .product-list-header {
         height: 2.5em;

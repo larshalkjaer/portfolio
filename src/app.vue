@@ -5,7 +5,7 @@
             <page-options class="page-options" :language="language" @option-select-sort="selectSortOption($event)" @option-select-language="selectLanguageOption($event)"/>
         </div>
         <div class="product-table" v-if="!showDetails">
-            <div class="product-list" v-for="listitem in sortedProductList" :key="listitem.header">
+            <div class="product-list" v-for="listitem in sortedProductList" :key="listitem.sortingvalue">
                 <product-list @product-list-item-clicked="showProductItem($event)" :header="listitem.header" :items="listitem.items" :language="language" />
             </div>
         </div>
@@ -21,7 +21,6 @@
     import ProductList from './components/product-list.vue'
     import ProductListItemDetails from './components/product-list-item-details.vue'
     import AppData from './data/portfolio.json'
-
 
     export default {
         name: 'app',
@@ -41,7 +40,7 @@
             return {
                 currentItemID: 0,
                 showDetails: false,
-                sortingKey: '',
+                sortingKey: 'none',
                 language: 'da',
                 products: AppData.products
             }
@@ -84,16 +83,26 @@
 
             addItemToList: function(item, sortedlist, sortingkey)
             {
-                var sortingvalues = this.getSortingValues(item, sortingkey);
+                var sortingvalues = this.getSortingValuesFromListItem(item, sortingkey);
                 sortingvalues.forEach(function(sortingvalue) {
-                    var foundlistitem = sortedlist.find(function(listitem){return (listitem.header === sortingvalue)});
-                    foundlistitem ? foundlistitem.items.push(item) : sortedlist.push({header: sortingvalue, items: [item]});
-                });
+                    var existinglistitem = sortedlist.find(function(listitem) {
+                        return (listitem.sortingvalue === sortingvalue)
+                    });
+                    if (existinglistitem)
+                    {
+                        existinglistitem.items.push(item);
+                    }
+                    else
+                    {
+                        let headertext = this.$translation.texts.sortkeynames[sortingkey][this.language][sortingvalue];
+                        sortedlist.push({sortingvalue: sortingvalue, header: headertext, items: [item]});
+                    }
+                }.bind(this));
             },
 
-            getSortingValues: function(item, sortingkey)
+            getSortingValuesFromListItem: function(item, sortingkey)
             {
-                let sortingvalues = item[sortingkey] || 'All';
+                let sortingvalues = item[sortingkey] || 'none';
                 return Array.isArray(sortingvalues) ? sortingvalues : [sortingvalues];
             },
 
@@ -122,19 +131,18 @@
         font-family: 'Roboto', sans-serif;
     }
     .appheader {
-        /* display: flex; */
-        /* flex-wrap: wrap; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
         background-color: #87aab9;
         width: 100%;
     }
     .page-header {
-        /* flex-grow: 1; */
-        /* min-width: 20rem; */
+        flex-grow: 1;
     }
     .page-options {
-        display: none;
-        /* flex-grow: 1; */
-        /* min-width: 20rem; */
+        flex-grow: 1;
+        justify-content: flex-end;
     }
     .product-table {
         display: flex;
@@ -143,8 +151,18 @@
     }
     .product-list {
         flex-grow: 1;
+        flex-basis: 20%;
+        min-width: 300px;
     }
     .product-list-item-details {
         margin: 10px 10px
+    }
+    @media screen and (max-width: 480px) {
+        .appheader {
+            flex-direction: column;
+        }
+        .page-options {
+            justify-content: flex-start;
+        }
     }
 </style>

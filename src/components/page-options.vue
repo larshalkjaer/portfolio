@@ -1,7 +1,7 @@
 <template>
     <div class="page-options">
-        <options-select class="options-sort-select" :options="sortOptions" eventpostfix="sort"></options-select>
-        <options-select class="options-language-select" :options="languageOptions" eventpostfix="language"></options-select>
+        <options-select class="options-select" :options="sortOptions" eventpostfix="sort"></options-select>
+        <options-select class="options-select" :options="languageOptions" eventpostfix="language"></options-select>
     </div>
 </template>
 
@@ -33,10 +33,14 @@
     .page-options {
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        margin: 0;
     }
-    /* .options-sort-select {
+    .options-select {
+        margin-right: 15px;
     }
-    .options-language-select {
-    } */
+    @media screen and (max-width: 480px) {
+        .page-options {
+            margin: 0 0 10px 15px;
+        }
+    }
 </style>
