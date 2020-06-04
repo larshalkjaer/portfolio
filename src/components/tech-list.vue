@@ -42,6 +42,7 @@
     }
     .techlist-list-item {
         margin-right: 10px;
+        white-space: pre;
     }
     .icon {
         height: 16px;

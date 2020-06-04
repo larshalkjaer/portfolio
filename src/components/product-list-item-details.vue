@@ -77,6 +77,8 @@
     }
     .productimage {
         width: 49%;
+        height: 100%;
+        margin-bottom: 10px;
     }
     .description {
         line-height: 1.3rem;

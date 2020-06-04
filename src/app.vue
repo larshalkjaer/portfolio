@@ -127,13 +127,19 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-color: #656f6f;
+    }
     #app {
         font-family: 'Roboto', sans-serif;
-        /* body {  */
-            max-width: 1140px; 
-            margin: 0 auto !important; 
-            float: none !important; 
-        /* } */
+        max-width: 1140px; 
+        min-height: 100%;
+        margin: 0 auto !important; 
+        float: none !important; 
+        background-color: white;
     }
     .appheader {
         display: flex;
@@ -160,7 +166,8 @@
         min-width: 300px;
     }
     .product-list-item-details {
-        margin: 10px 10px
+        margin: 10px 10px 0px 10px;
+        padding-bottom: 20px;
     }
     @media screen and (max-width: 480px) {
         .appheader {
