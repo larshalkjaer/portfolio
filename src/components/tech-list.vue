@@ -8,9 +8,15 @@
 
 <script>
     const techiconmap = {
-        'htmlcssjs': 'html5cssjs.png',
+        'captivate': 'captivate.png',
         'cpp': 'cpp.png',
-        'flashas3': 'flashas3.png'
+        'delphipas': 'delphipas.png',
+        'director': 'director.png',
+        'flashas3': 'flashas3.png',
+        'htmlcssjs': 'html5cssjs.png',
+        'nodejs': 'nodejs.png',
+        'storyline': 'storyline.png',
+        'unity': 'unity.png'
     };
 
     export default {

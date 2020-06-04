@@ -129,6 +129,11 @@
 
     #app {
         font-family: 'Roboto', sans-serif;
+        /* body {  */
+            max-width: 1140px; 
+            margin: 0 auto !important; 
+            float: none !important; 
+        /* } */
     }
     .appheader {
         display: flex;

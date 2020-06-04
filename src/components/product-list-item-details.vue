@@ -1,8 +1,6 @@
 <template>
     <div class="product-list-item-details">
-        <div class="icon">
-            <img class="icon-image" :src="'assets/' + productitem.icon">
-        </div>
+        <product-icon class="product-icon" :apptype="productitem.apptype"></product-icon>
         <h2>{{productitem.name[language]}}</h2>
         <button class="button" @click="onBackButtonClick()">{{this.$translation.texts.backbutton_caption[language]}}</button>
 
@@ -11,13 +9,13 @@
                 <source :src="'assets/' + productitem.video" type="video/mp4">
             </video>
             <img class="productimage" :src="'assets/' + productitem.image" v-else>
-            <p class="description">{{productitem.description[language]}}</p>
+            <p class="description" v-html="productitem.description[language]"></p>
 
             <p class="techlist-caption">{{this.$translation.texts.techlist_caption[language]}}</p>
             <tech-list class="techlist" :techlist="productitem.tech" :language="language" direction="vertical"></tech-list>
             <p  class="resources" v-if="productitem.resources[language]">
                 <span class="resources-caption">{{this.$translation.texts.resources_caption[language]}}</span>
-                <span v-html="productitem.resources[language]">{{productitem.resources[language]}}}</span>
+                <span v-html="productitem.resources[language]"></span>
             </p>
             <p class="role">
                 <span class="role-caption">{{this.$translation.texts.role_caption[language]}}</span>
@@ -32,12 +30,14 @@
 </template>
 
 <script>
+    import ProductIcon from './product-icon.vue'
     import TechList from './tech-list.vue'
 
     export default {
         props: ['productitem', 'language'],
 
         components: {
+            ProductIcon,
             TechList
         },
 
@@ -57,19 +57,10 @@
         margin: 32px 0 0 0;
         padding: 0 0 8px;
     }
-    .icon {
+    .product-icon {
         width: 84px;
         height: 84px;
-        position: relative;
-        float: right;
-        border-radius: 50%;
-        border: 2px solid #de1818;
         margin-top: 4px;
-        pointer-events: none;
-    }
-    .icon-image {
-        width: 80px;
-        height: 80px;
     }
     .button {
         display: block;
@@ -88,7 +79,15 @@
         width: 49%;
     }
     .description {
+        line-height: 1.3rem;
         width: 49%;
+    }
+    .description >>> p {
+        margin-bottom: 0.6rem;
+    }
+    .description >>> em {
+        font-style: normal;
+        font-weight: bold;
     }
     .techlist-caption {
         width: 100%;
@@ -130,14 +129,10 @@
         .description {
             width: 100%;
         }
-        .icon {
+        .product-icon {
             width: 44px;
             height: 44px;
             margin-top: 24px;
-        }
-        .icon-image {
-            width: 40px;
-            height: 40px;
         }
     }
 </style>

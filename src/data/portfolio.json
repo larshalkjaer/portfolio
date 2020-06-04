@@ -62,14 +62,26 @@
             },
             "tech": {
                 "da": {
+                    "captivate": "Adobe Captivate",
                     "cpp": "C++",
+                    "delphipas": "Delphi Pascal",
+                    "director": "Adobe Director",
                     "flashas3": "Flash og ActionScript 3",
-                    "htmlcssjs": "HTML5, CSS og JavaScript"
+                    "htmlcssjs": "HTML5, CSS og JavaScript",
+                    "nodejs": "Node JS",
+                    "storyline": "Articulate Storyline",
+                    "unity": "Unity 3D"
                 },
                 "en": {
+                    "captivate": "Adobe Captivate",
                     "cpp": "C++",
+                    "delphipas": "Delphi Pascal",
+                    "director": "Adobe Director",
                     "flashas3": "Flash and ActionScript 3",
-                    "htmlcssjs": "HTML5, CSS and JavaScript"
+                    "htmlcssjs": "HTML5, CSS and JavaScript",
+                    "nodejs": "Node JS",
+                    "storyline": "Articulate Storyline",
+                    "unity": "Unity 3D"
                 }
             },
             "decade": {
@@ -88,12 +100,22 @@
             },
             "apptype": {
                 "da": {
+                    "app": "Generel App",
+                    "course": "Kursus",
+                    "framework": "Framework",
                     "game": "Spil",
-                    "framework": "Framework"
+                    "language": "Scriptsprog",
+                    "pim": "PIM",
+                    "tool": "Udviklingsværktøj"
                 },
                 "en": {
+                    "app": "General App",
+                    "course": "Course",
+                    "framework": "Framework",
                     "game": "Game",
-                    "framework": "Framework"
+                    "language": "Scripting language",
+                    "pim": "PIM",
+                    "tool": "Developer tool"
                 }
             }
         }
@@ -104,25 +126,23 @@
         {
             "id": 1,
             "name": {
-                "da": "Produkt nr. 1",
-                "en": "Product no. 1"
+                "da": "Pfizer epios",
+                "en": "Pfizer epios"
             },
             "description": {
-                "da": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                "da": "<p>Pfizer epios er udviklet til brug for læger og deres patienter, med henblik på, at give lægen et visualiserings-værktøj, der dækker en række almindeligt forekommende sygdomme.</p><p>Lægen kan bruge værktøjet, til at forklare patienten om sygdommen, og efterføgende udskrive teksten til forklaringen, tilføjet egne noter, specifikt til patienten.</p><p>Værktøjet gør brug af video med tilhørende speak, der desuden findes på 6 sprog, og hjælper således med at løse, nogle af de sprogproblemer, der ofte opstår.</p><p>Patienten kan, udover at få den trykte tekst med lægens noter med hjem, også se og høre forløbet igen, på deres egen pc.</p><p>Værktøjet er implementeret i Flash og gør brug af FLV video.</p><p><em>Jeg har oprindeligt udviklet programmet til cd-rom, i Adobe Director og senere porteret det til websitebrug i Flash</em>.",
                 "en": "consectetur adipiscing elit, sed tempor and vitality, so that the labor and sorrow, some important things to do eiusmod. Over the years, I will come, who will nostrud aliquip out of her the advantage of exercise, so that stimulus efforts if the school district and longevity. Want to be a pain in the cupidatat cillum has been criticized in the Duis et dolore magna flee produces no resultant pleasure."
             },
             "decade":"90",
             "year":"1996",
-            "image":"drawing.jpg",
+            "image":"pfizerepios.png",
             "video":"",
-            "apptype": "game",
-            "icon":"gameicon.png",
+            "apptype": "app",
             "role":"developer",
             "resources": {"da": "", "en": ""},
-            "resourcelink": "resources/islmanualexample.pdf",
             "tech":
             [
-                "cpp"
+                "director", "flashas3"
             ]
         },
         {
@@ -140,7 +160,6 @@
             "image":"drawing.jpg",
             "video":"",
             "apptype": "framework",
-            "icon":"frameworkicon.png",
             "role":"designer",
             "resources": {
                 "da": "Et par eksempler på dokumentation for ISL scriptsproget: <a href='resources/isl_guide_uddrag.pdf' target='_blank'>Bruger guide</a> og <a href='resources/isl_fortolker_opcodes.pdf' target='_blank'>Fortolkerens opcodes</a>.",
@@ -166,7 +185,6 @@
             "image":"",
             "video":"video.mp4",
             "apptype": "game",
-            "icon":"gameicon.png",
             "role":"designer",
             "resources": {"da": "", "en": ""},
             "tech":
@@ -188,8 +206,7 @@
             "year":"1991",
             "image":"",
             "video":"video.mp4",
-            "apptype": "game",
-            "icon":"gameicon.png",
+            "apptype": "language",
             "role":"developer",
             "resources": {"da": "", "en": ""},
             "tech":

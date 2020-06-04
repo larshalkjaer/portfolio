@@ -1,20 +1,20 @@
 <template>
     <div class="product-list-item" @click="onItemClick(productitem.id)">
-        <div class="icon">
-            <img class="icon-image" :src="'assets/' + productitem.icon">
-        </div>
+        <product-icon class="product-icon" :apptype="productitem.apptype"></product-icon>
         <h3>{{productitem.name[language]}}</h3>
         <tech-list class="techlist" :techlist="productitem.tech" :language="language" direction="horizontal"></tech-list>
     </div>
 </template>
 
 <script>
+    import ProductIcon from './product-icon.vue'
     import TechList from './tech-list.vue'
 
     export default {
         props: ['productitem', 'language'],
 
         components: {
+            ProductIcon,
             TechList
         },
 
@@ -45,18 +45,10 @@
         padding: 0 0 8px;
         cursor: pointer;
     }
-    .icon {
+    .product-icon {
         width: 44px;
         height: 44px;
-        position: relative;
-        float: right;
-        border-radius: 50%;
-        border: 2px solid #de1818;
-        margin-top: 9px;
-    }
-    .icon-image {
-        width: 40px;
-        height: 40px;
+        margin-top: 10px;
     }
     .techlist {
         margin: 10px 0 20px 0;
