@@ -13,7 +13,7 @@
 
             <p class="techlist-caption">{{this.$translation.texts.techlist_caption[language]}}</p>
             <tech-list class="techlist" :techlist="productitem.tech" :language="language" direction="vertical"></tech-list>
-            <p  class="resources" v-if="productitem.resources[language]">
+            <p class="resources" v-if="productitem.resources[language]">
                 <span class="resources-caption">{{this.$translation.texts.resources_caption[language]}}</span>
                 <span v-html="productitem.resources[language]"></span>
             </p>

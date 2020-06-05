@@ -130,11 +130,11 @@
                 "en": "Pfizer epios"
             },
             "description": {
-                "da": "<p>Pfizer epios er udviklet til brug for læger og deres patienter, med henblik på, at give lægen et visualiserings-værktøj, der dækker en række almindeligt forekommende sygdomme.</p><p>Lægen kan bruge værktøjet, til at forklare patienten om sygdommen, og efterføgende udskrive teksten til forklaringen, tilføjet egne noter, specifikt til patienten.</p><p>Værktøjet gør brug af video med tilhørende speak, der desuden findes på 6 sprog, og hjælper således med at løse, nogle af de sprogproblemer, der ofte opstår.</p><p>Patienten kan, udover at få den trykte tekst med lægens noter med hjem, også se og høre forløbet igen, på deres egen pc.</p><p>Værktøjet er implementeret i Flash og gør brug af FLV video.</p><p><em>Jeg har oprindeligt udviklet programmet til cd-rom, i Adobe Director og senere porteret det til websitebrug i Flash</em>.",
-                "en": "<p>Pfizer epios has been developed for use by doctors and their patients in order to provide the doctor with a visualization tool covering a variety of commonly occurring diseases.</p><p>The doctor can use the tool to explain the patient about the disease and then print the explanation, adding his own notes specifically for the patient.</p><p>The tool uses video and speech which is available in 6 languages and thus helps to solve some of the language problems that often occur.</p><p>In addition to getting the printed text with the doctor's notes back, the patient can also watch the explanation again on their own PC.</p><p>The tool is implemented in Flash and uses FLV video.</p><p><em>I originally developed the program for CD-ROM in Adobe Director and later ported it for website use in Flash</em>."
+                "da": "<p>'Pfizer epios' er udviklet til brug for læger og deres patienter, med henblik på, at give lægen et visualiserings-værktøj, der dækker en række almindeligt forekommende sygdomme.</p><p>Lægen kan bruge værktøjet, til at forklare patienten om sygdommen, og efterføgende udskrive teksten til forklaringen, tilføjet egne noter, specifikt til patienten.</p><p>Værktøjet gør brug af video med tilhørende speak, der desuden findes på 6 sprog, og hjælper således med at løse, nogle af de sprogproblemer, der ofte opstår.</p><p>Patienten kan, udover at få den trykte tekst med lægens noter med hjem, også se og høre forløbet igen, på deres egen pc.</p><p>Værktøjet er implementeret i Flash og gør brug af FLV video.</p><p><em>Jeg har oprindeligt udviklet programmet til cd-rom, i Adobe Director og senere porteret det til websitebrug i Flash.</em></p>",
+                "en": "<p>'Pfizer epios' has been developed for use by doctors and their patients in order to provide the doctor with a visualization tool covering a variety of commonly occurring diseases.</p><p>The doctor can use the tool to explain the patient about the disease and then print the explanation, adding his own notes specifically for the patient.</p><p>The tool uses video and speech which is available in 6 languages and thus helps to solve some of the language problems that often occur.</p><p>In addition to getting the printed text with the doctor's notes back, the patient can also watch the explanation again on their own PC.</p><p>The tool is implemented in Flash and uses FLV video.</p><p><em>I originally developed the program for CD-ROM in Adobe Director and later ported it for website use in Flash.</em></p>"
             },
-            "decade":"90",
-            "year":"1996",
+            "decade":"00",
+            "year":"2006",
             "image":"pfizerepios.png",
             "video":"",
             "apptype": "app",
@@ -148,26 +148,23 @@
         {
             "id": 2,
             "name": {
-                "da": "Produkt nr. 2",
-                "en": "Product no. 2"
+                "da": "BAR Kontorindretning",
+                "en": "BAR Kontorindretning"
             },
             "description": {
-                "da": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
-                "en": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy."
+                "da": "<p>'BAR Kontorindretning' er beregnet på, med udgangspunkt i brugerens egen kontorindretning, at oplyse om regler og anbefalinger, for god og ergonomisk indretning af kontorer.</p><p>Brugeren indretter er kontor på skærmen, med udgangspunkt i sit eget kontor, og får undervejs en række gode råd og anbefalinger.</p><p>Til sidst kan udskrives en rapport, med alle de givne råd.</p><p> Programmet er udviklet i Flash og anvender Flash SharedObjects til at gemme brugerens indretning mellem sessioner. </p><p><em> Jeg har implementeret hele applikationen.</em></p>",
+                "en": "<p>'Bar Kontorindretning' is intended to inform about rules and recommendations for good and ergonomic layout of offices, based on the user's own office.</p><p>The user layouts an office on the screen, based on his own office, and along the way he receives a number of recommendations and good advice.</p><p>Eventually a report can be printed, with all the advice given.</p><p>Developed in Flash, the program uses Flash SharedObjects to store the user's layout between sessions.</p><p><em>I have implemented the entire application.</em></p>"
             },
-            "decade":"10",
-            "year":"2016",
-            "image":"drawing.jpg",
-            "video":"",
-            "apptype": "framework",
-            "role":"designer",
-            "resources": {
-                "da": "Et par eksempler på dokumentation for ISL scriptsproget: <a href='resources/isl_guide_uddrag.pdf' target='_blank'>Bruger guide</a> og <a href='resources/isl_fortolker_opcodes.pdf' target='_blank'>Fortolkerens opcodes</a>.",
-                "en": "A couple of examples of documentation for the ISL script language: <a href='resources/isl_guide_uddrag.pdf' target='_blank'>User guide</a> og <a href='resources/isl_fortolker_opcodes.pdf' target='_blank'>Interpreter opcodes</a>."
-            },
+            "decade":"00",
+            "year":"2004",
+            "image":"",
+            "video":"barkontor.mp4",
+            "apptype": "app",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
             "tech":
             [
-                "flashas3", "htmlcssjs"
+                "flashas3"
             ]
         },
         {
@@ -182,8 +179,8 @@
             },
             "decade":"20",
             "year":"2020",
-            "image":"",
-            "video":"video.mp4",
+            "image":"pfizerepios.png",
+            "video":"",
             "apptype": "game",
             "role":"designer",
             "resources": {"da": "", "en": ""},
@@ -205,11 +202,14 @@
             "decade":"90",
             "year":"1991",
             "image":"",
-            "video":"video.mp4",
+            "video":"barkontor.mp4",
             "apptype": "language",
             "role":"developer",
-            "resources": {"da": "", "en": ""},
-            "tech":
+            "resources": {
+                "da": "Et par eksempler på dokumentation for ISL scriptsproget: <a href='resources/isl_guide_uddrag.pdf' target='_blank'>Bruger guide</a> og <a href='resources/isl_fortolker_opcodes.pdf' target='_blank'>Fortolkerens opcodes</a>.",
+                "en": "A couple of examples of documentation for the ISL script language: <a href='resources/isl_guide_uddrag.pdf' target='_blank'>User guide</a> og <a href='resources/isl_fortolker_opcodes.pdf' target='_blank'>Interpreter opcodes</a>."
+            },
+           "tech":
             [
                 "htmlcssjs"
             ]
