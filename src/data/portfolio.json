@@ -53,11 +53,11 @@
             "role": {
                 "da": {
                     "developer": "Udvikler",
-                    "designer": "Designer"
+                    "architect": "Arkitekt"
                 },
                 "en": {
                     "developer": "Developer",
-                    "designer": "Designer"
+                    "architect": "Architect"
                 }
             },
             "tech": {
@@ -126,27 +126,195 @@
         {
             "id": 1,
             "name": {
-                "da": "Pfizer epios",
-                "en": "Pfizer epios"
+                "da": "Yellow Planner",
+                "en": "Yellow Planner"
             },
             "description": {
-                "da": "<p>'Pfizer epios' er udviklet til brug for læger og deres patienter, med henblik på, at give lægen et visualiserings-værktøj, der dækker en række almindeligt forekommende sygdomme.</p><p>Lægen kan bruge værktøjet, til at forklare patienten om sygdommen, og efterføgende udskrive teksten til forklaringen, tilføjet egne noter, specifikt til patienten.</p><p>Værktøjet gør brug af video med tilhørende speak, der desuden findes på 6 sprog, og hjælper således med at løse, nogle af de sprogproblemer, der ofte opstår.</p><p>Patienten kan, udover at få den trykte tekst med lægens noter med hjem, også se og høre forløbet igen, på deres egen pc.</p><p>Værktøjet er implementeret i Flash og gør brug af FLV video.</p><p><em>Jeg har oprindeligt udviklet programmet til cd-rom, i Adobe Director og senere porteret det til websitebrug i Flash.</em></p>",
-                "en": "<p>'Pfizer epios' has been developed for use by doctors and their patients in order to provide the doctor with a visualization tool covering a variety of commonly occurring diseases.</p><p>The doctor can use the tool to explain the patient about the disease and then print the explanation, adding his own notes specifically for the patient.</p><p>The tool uses video and speech which is available in 6 languages and thus helps to solve some of the language problems that often occur.</p><p>In addition to getting the printed text with the doctor's notes back, the patient can also watch the explanation again on their own PC.</p><p>The tool is implemented in Flash and uses FLV video.</p><p><em>I originally developed the program for CD-ROM in Adobe Director and later ported it for website use in Flash.</em></p>"
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
             },
-            "decade":"00",
-            "year":"2006",
-            "image":"pfizerepios.png",
+            "decade":"90",
+            "year":"1992",
+            "image":"yellowplanner.png",
             "video":"",
-            "apptype": "app",
+            "apptype": "pim",
             "role":"developer",
             "resources": {"da": "", "en": ""},
-            "tech":
-            [
-                "director", "flashas3"
-            ]
+            "tech":["delphipas"]
         },
         {
             "id": 2,
+            "name": {
+                "da": "Time Mananger for Windows",
+                "en": "Time Mananger for Windows"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"90",
+            "year":"1993",
+            "image":"timemanager.png",
+            "video":"",
+            "apptype": "pim",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
+            "tech":["delphipas"]
+        },
+        {
+            "id": 3,
+            "name": {
+                "da": "Magnus & Myggen 1",
+                "en": "Skipper & Skeeto 1"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"90",
+            "year":"1996",
+            "image":"",
+            "video":"magnus1.mp4",
+            "apptype": "game",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
+            "tech":["director"]
+        },
+        {
+            "id": 4,
+            "name": {
+                "da": "IVANOFF Tools",
+                "en": "IVANOFF Tools"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"90",
+            "year":"1997-2000",
+            "image":"ivanofftools.png",
+            "video":"",
+            "apptype": "tool",
+            "role":"architect",
+            "resources": {"da": "", "en": ""},
+            "tech":["cpp"]
+        },
+        {
+            "id": 5,
+            "name": {
+                "da": "Magnus & Myggen 2-6",
+                "en": "Skipper & Skeeto 2-6"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"90",
+            "year":"1997-2000",
+            "image":"",
+            "video":"magnus2-4.mp4",
+            "apptype": "game",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
+            "tech":["cpp"]
+        },
+        {
+            "id": 6,
+            "name": {
+                "da": "IGL Framework",
+                "en": "IGL Framework"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"90",
+            "year":"1998",
+            "image":"igl.png",
+            "video":"",
+            "apptype": "framework",
+            "role":"architect",
+            "resources": {"da": "", "en": ""},
+            "tech":["cpp"]
+        },
+        {
+            "id": 7,
+            "name": {
+                "da": "LEGO Friends",
+                "en": "LEGO Friends"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"90",
+            "year":"1999",
+            "image":"",
+            "video":"legofriends.mp4",
+            "apptype": "game",
+            "role":"architect",
+            "resources": {"da": "", "en": ""},
+            "tech":["cpp"]
+        },
+        {
+            "id": 8,
+            "name": {
+                "da": "ISL Scriptsprog",
+                "en": "ISL Script language"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"90",
+            "year":"1999",
+            "image":"isl.png",
+            "video":"",
+            "apptype": "language",
+            "role":"architect",
+            "resources": {"da": "", "en": ""},
+            "tech":["cpp"]
+        },
+        {
+            "id": 9,
+            "name": {
+                "da": "Magnus & Myggen, Talbutikken",
+                "en": "Skipper & Skeeto, The Number Shop"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"00",
+            "year":"2001",
+            "image":"",
+            "video":"magnus123.mp4",
+            "apptype": "game",
+            "role":"architect",
+            "resources": {"da": "", "en": ""},
+            "tech":["cpp"]
+        },
+        {
+            "id": 10,
+            "name": {
+                "da": "SuperStarter",
+                "en": "SuperStarter"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"00",
+            "year":"2002",
+            "image":"superstarter.png",
+            "video":"",
+            "apptype": "tool",
+            "role":"",
+            "resources": {"da": "", "en": ""},
+            "tech":[""]
+        },
+        {
+            "id": 11,
             "name": {
                 "da": "BAR Kontorindretning",
                 "en": "BAR Kontorindretning"
@@ -162,57 +330,330 @@
             "apptype": "app",
             "role":"developer",
             "resources": {"da": "", "en": ""},
-            "tech":
-            [
-                "flashas3"
-            ]
+            "tech": ["flashas3"]
         },
         {
-            "id": 3,
+            "id": 12,
             "name": {
-                "da": "Produkt nr. 3",
-                "en": "Product no. 3"
+                "da": "Pfizer epios",
+                "en": "Pfizer epios"
             },
             "description": {
-                "da": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
-                "en": "Welcome the pains and troubles which the pleasures are blinded are deleniti a desire for, and do not act corruptly by whom they provide in, the duties of those who deserted the general's want of spirit, and in the same chapter be at fault, that is, of his labor and painful."
+                "da": "<p>'Pfizer epios' er udviklet til brug for læger og deres patienter, med henblik på, at give lægen et visualiserings-værktøj, der dækker en række almindeligt forekommende sygdomme.</p><p>Lægen kan bruge værktøjet, til at forklare patienten om sygdommen, og efterføgende udskrive teksten til forklaringen, tilføjet egne noter, specifikt til patienten.</p><p>Værktøjet gør brug af video med tilhørende speak, der desuden findes på 6 sprog, og hjælper således med at løse, nogle af de sprogproblemer, der ofte opstår.</p><p>Patienten kan, udover at få den trykte tekst med lægens noter med hjem, også se og høre forløbet igen, på deres egen pc.</p><p>Værktøjet er implementeret i Flash og gør brug af FLV video.</p><p><em>Jeg har oprindeligt udviklet programmet til cd-rom, i Adobe Director og senere porteret det til websitebrug i Flash.</em></p>",
+                "en": "<p>'Pfizer epios' has been developed for use by doctors and their patients in order to provide the doctor with a visualization tool covering a variety of commonly occurring diseases.</p><p>The doctor can use the tool to explain the patient about the disease and then print the explanation, adding his own notes specifically for the patient.</p><p>The tool uses video and speech which is available in 6 languages and thus helps to solve some of the language problems that often occur.</p><p>In addition to getting the printed text with the doctor's notes back, the patient can also watch the explanation again on their own PC.</p><p>The tool is implemented in Flash and uses FLV video.</p><p><em>I originally developed the program for CD-ROM in Adobe Director and later ported it for website use in Flash.</em></p>"
+            },
+            "decade":"00",
+            "year":"2006",
+            "image":"pfizerepios.png",
+            "video":"",
+            "apptype": "app",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
+            "tech": ["director", "flashas3"]
+        },
+        {
+            "id": 13,
+            "name": {
+                "da": "ToonPaper",
+                "en": "ToonPaper"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"00",
+            "year":"2007",
+            "image":"",
+            "video":"toonpaper.mp4",
+            "apptype": "app",
+            "role":"architect",
+            "resources": {"da": "", "en": ""},
+            "tech":["flashas3"]
+        },
+        {
+            "id": 14,
+            "name": {
+                "da": "eFrame Flash Framework",
+                "en": "eFrame Flash Framework"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"10",
+            "year":"2009-2016",
+            "image":"eframe.png",
+            "video":"",
+            "apptype": "framework",
+            "role":"architect",
+            "resources": {"da": "", "en": ""},
+            "tech":["flashas3"]
+        },
+        {
+            "id": 15,
+            "name": {
+                "da": "Personlig Planlægning",
+                "en": "Personal Planning"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"10",
+            "year":"2012",
+            "image":"",
+            "video":"mochplanning.mp4",
+            "apptype": "course",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
+            "tech":["flashas3"]
+        },
+        {
+            "id": 16,
+            "name": {
+                "da": "Q8, Røveren",
+                "en": "Q8, The Robber"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"10",
+            "year":"2013",
+            "image":"",
+            "video":"q8roeveren.mp4",
+            "apptype": "course",
+            "role":"",
+            "resources": {"da": "", "en": ""},
+            "tech":["flashas3"]
+        },
+        {
+            "id": 17,
+            "name": {
+                "da": "Offshore Sikkerhed",
+                "en": "Offshore Safety"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"10",
+            "year":"2014",
+            "image":"",
+            "video":"dongoffshore.mp4",
+            "apptype": "course",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
+            "tech":["captivate"]
+        },
+        {
+            "id": 18,
+            "name": {
+                "da": "Diabetes, Bevar livsglæden",
+                "en": "Diabetes, Having a good life"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"10",
+            "year":"2016",
+            "image":"",
+            "video":"sdsidiabetes.mp4",
+            "apptype": "course",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
+            "tech":["storyline"]
+        },
+        {
+            "id": 19,
+            "name": {
+                "da": "Persondataloven",
+                "en": "Privacy law"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"10",
+            "year":"2016",
+            "image":"",
+            "video":"modstpersondata.mp4",
+            "apptype": "course",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
+            "tech":["storyline", "htmlcssjs"]
+        },
+        {
+            "id": 20,
+            "name": {
+                "da": "Service på DSB'sk",
+                "en": "Service the DSB way"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade": "10",
+            "year":"2017",
+            "image":"",
+            "video":"servicepaadsbsk.mp4",
+            "apptype": "course",
+            "role":"architect",
+            "resources": {"da": "", "en": ""},
+            "tech":["captivate"]
+        },
+        {
+            "id": 21,
+            "name": {
+                "da": "MABS build system",
+                "en": "MABS build system"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"10",
+            "year":"2017-2020",
+            "image":"mabs.png",
+            "video":"",
+            "apptype": "tool",
+            "role":"architect",
+            "resources": {"da": "", "en": ""},
+            "tech":["nodejs"]
+        },
+        {
+            "id": 22,
+            "name": {
+                "da": "Adapt, Komponenter",
+                "en": "Adapt, Components"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"10",
+            "year":"2017-2020",
+            "image":"adaptplugin.png",
+            "video":"",
+            "apptype": "components",
+            "role":"architect",
+            "resources": {"da": "", "en": ""},
+            "tech":["htmlcssjs"]
+        },
+        {
+            "id": 23,
+            "name": {
+                "da": "GDPR Kursus",
+                "en": "GDPR Course"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"10",
+            "year":"2017-2020",
+            "image":"",
+            "video":"mochgdpr.mp4",
+            "apptype": "course",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
+            "tech":["htmlcssjs"]
+        },
+        {
+            "id": 24,
+            "name": {
+                "da": "Adapt, tilpasning",
+                "en": "Adapt, modification"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"10",
+            "year":"2017-2020",
+            "image":"adaptmod.png",
+            "video":"",
+            "apptype": "framework",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
+            "tech":["htmlcssjs", "nodejs"]
+        },
+        {
+            "id": 25,
+            "name": {
+                "da": "IT Sikkehedskursus",
+                "en": "Cyber Awareness Course"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"10",
+            "year":"2018-2020",
+            "image":"",
+            "video":"mochcyber.mp4",
+            "apptype": "course",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
+            "tech":["htmlcssjs"]
+        },
+        {
+            "id": 26,
+            "name": {
+                "da": "Røde Kors, Familielivet i en kommune",
+                "en": "Red Cross, Family life in a municipality"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"10",
+            "year":"2019",
+            "image":"",
+            "video":"rodekorsfamilielivet.mp4",
+            "apptype": "course",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
+            "tech":["htmlcssjs"]
+        },
+        {
+            "id": 27,
+            "name": {
+                "da": "ADHD, Kærlighed i Kaos",
+                "en": "ADHD, Love in Chaos"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+            },
+            "decade":"10",
+            "year":"2019",
+            "image":"",
+            "video":"adhdkik.mp4",
+            "apptype": "course",
+            "role":"developer",
+            "resources": {"da": "", "en": ""},
+            "tech":["htmlcssjs"]
+        },
+        {
+            "id": 28,
+            "name": {
+                "da": "SKT, Tandmorfologi 3D",
+                "en": "SKT, Dental Morphology 3D"
+            },
+            "description": {
+                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
+                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
             },
             "decade":"20",
             "year":"2020",
-            "image":"pfizerepios.png",
-            "video":"",
-            "apptype": "game",
-            "role":"designer",
-            "resources": {"da": "", "en": ""},
-            "tech":
-            [
-                "htmlcssjs"
-            ]
-        },
-        {
-            "id": 34,
-            "name": {
-                "da": "Produkt nr. 4",
-                "en": "Product no. 4"
-            },
-            "description": {
-                "da": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
-                "en": "Welcome the pains and troubles which the pleasures are blinded are deleniti a desire for, and do not act corruptly by whom they provide in, the duties of those who deserted the general's want of spirit, and in the same chapter be at fault, that is, of his labor and painful."
-            },
-            "decade":"90",
-            "year":"1991",
             "image":"",
-            "video":"barkontor.mp4",
-            "apptype": "language",
+            "video":"tandmorfologi.mp4",
+            "apptype": "course",
             "role":"developer",
-            "resources": {
-                "da": "Et par eksempler på dokumentation for ISL scriptsproget: <a href='resources/isl_guide_uddrag.pdf' target='_blank'>Bruger guide</a> og <a href='resources/isl_fortolker_opcodes.pdf' target='_blank'>Fortolkerens opcodes</a>.",
-                "en": "A couple of examples of documentation for the ISL script language: <a href='resources/isl_guide_uddrag.pdf' target='_blank'>User guide</a> og <a href='resources/isl_fortolker_opcodes.pdf' target='_blank'>Interpreter opcodes</a>."
-            },
-           "tech":
-            [
-                "htmlcssjs"
-            ]
+            "resources": {"da": "", "en": ""},
+            "tech":["htmlcssjs"]
         }
-   ]
+    ]
 }
