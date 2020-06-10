@@ -2,15 +2,18 @@
     <div id="app">
         <div class="appheader">
             <page-header class="page-header" :pageTitle="$translation.texts.title" />
-            <page-options class="page-options" :language="language" @option-select-sort="selectSortOption($event)" @option-select-language="selectLanguageOption($event)"/>
+            <page-options class="page-options" :language="language" @option-select-sort="selectSortOption($event)" @option-select-language="selectLanguageOption($event)" @about-button-clicked="setViewMode('about')"/>
         </div>
-        <div class="product-table" v-if="!showDetails">
+        <div class="product-list-item-details" v-if="viewmode==='details'">
+            <product-list-item-details @back-button-clicked="setViewMode('list')" :productitem="currentProductItem" :language="language" />
+        </div>
+        <div class="about" v-else-if="viewmode==='about'">
+            <page-about class="page-about" @back-button-clicked="setViewMode('list')" :aboutInfo="$translation.texts.about[this.language]" :language="language" />
+        </div>
+        <div class="product-table" v-else>
             <div class="product-list" v-for="listitem in sortedProductList" :key="listitem.sortingvalue">
                 <product-list @product-list-item-clicked="showProductItem($event)" :header="listitem.header" :items="listitem.items" :language="language" />
             </div>
-        </div>
-        <div class="product-list-item-details" v-else>
-            <product-list-item-details @back-button-clicked="showItemDetails(false)" :productitem="currentProductItem" :language="language" />
         </div>
     </div>
 </template>
@@ -18,6 +21,7 @@
 <script>
     import PageHeader from './components/page-header.vue'
     import PageOptions from './components/page-options.vue'
+    import PageAbout from './components/page-about.vue'
     import ProductList from './components/product-list.vue'
     import ProductListItemDetails from './components/product-list-item-details.vue'
     import AppData from './data/portfolio.json'
@@ -28,6 +32,7 @@
         components: {
             PageHeader,
             PageOptions,
+            PageAbout,
             ProductList,
             ProductListItemDetails
         },
@@ -39,7 +44,7 @@
         data: function() {
             return {
                 currentItemID: 0,
-                showDetails: false,
+                viewmode: 'list',
                 sortingKey: 'none',
                 language: 'da',
                 products: AppData.products
@@ -62,12 +67,12 @@
             showProductItem: function(itemid)
             {
                 this.currentItemID = itemid;
-                this.showItemDetails(true);
+                this.setViewMode('details');
             },
 
-            showItemDetails: function(visible)
+            setViewMode: function(mode)
             {
-                this.showDetails = visible;
+                (this.viewmode !== mode) ? (this.viewmode = mode) : (this.viewmode = 'list');
             },
 
             buildProductList: function(sortingkey)

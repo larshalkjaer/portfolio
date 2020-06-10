@@ -2,6 +2,9 @@
     <div class="page-options">
         <options-select class="options-select" :options="sortOptions" eventpostfix="sort"></options-select>
         <options-select class="options-select" :options="languageOptions" eventpostfix="language"></options-select>
+        <div class="about-btn" @click="onAboutButtonClick()">
+            <img class="about-icon" src="assets/abouticon.png" />
+        </div>
     </div>
 </template>
 
@@ -13,6 +16,13 @@
 
         components: {
             OptionsSelect
+        },
+
+        methods: {
+            onAboutButtonClick: function()
+            {
+                this.$emit('about-button-clicked');
+            }
         },
 
         computed: {
@@ -37,6 +47,16 @@
     }
     .options-select {
         margin-right: 15px;
+    }
+    .about-btn {
+        position: relative;
+        margin-right: 15px;
+        width: 24px;
+        cursor: pointer;
+    }
+    .about-icon {
+        position: absolute;
+        bottom: -12px;
     }
     @media screen and (max-width: 480px) {
         .page-options {

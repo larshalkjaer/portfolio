@@ -1,8 +1,10 @@
 <template>
     <div class="product-list-item-details">
-        <product-icon class="product-icon" :apptype="productitem.apptype"></product-icon>
-        <h2>{{productitem.name[language]}}</h2>
-        <button class="button" @click="onBackButtonClick()">{{this.$translation.texts.backbutton_caption[language]}}</button>
+        <div class="item-header">
+            <product-icon class="product-icon" :apptype="productitem.apptype"></product-icon>
+            <h2>{{productitem.name[language]}}</h2>
+        </div>
+        <button class="backbutton" @click="onBackButtonClick()">{{this.$translation.texts.backbutton_caption[language]}}</button>
 
         <div class="product-list-item-details-info">
             <video class="productimage" controls v-if="productitem.video">
@@ -51,22 +53,27 @@
 </script>
 
 <style scoped>
+    .item-header {
+        position: relative;
+    }
     h2 {
         font-size:2rem;
         border-bottom: 2px solid #de1818;
         margin: 32px 0 0 0;
-        padding: 0 0 8px;
+        padding: 0 84px 8px 0;
     }
     .product-icon {
+        position: absolute;
+        bottom: -42px;
+        right: 0;
         width: 84px;
         height: 84px;
-        margin-top: 4px;
     }
-    .button {
+    .backbutton {
         display: block;
         border: 1px;
         font-size: 1.1rem;
-        margin: 10px 0 10px 0;
+        margin: 10px 0 15px 0;
         cursor: pointer;
         background-color: white;
     }
@@ -125,6 +132,9 @@
         .product-list-item-details-info {
             flex-direction: column;
         }
+        h2 {
+            padding: 0 44px 8px 0;
+        }
         .productimage {
             width: 100%;
         }
@@ -132,9 +142,9 @@
             width: 100%;
         }
         .product-icon {
+            bottom: -22px;
             width: 44px;
             height: 44px;
-            margin-top: 24px;
         }
     }
 </style>

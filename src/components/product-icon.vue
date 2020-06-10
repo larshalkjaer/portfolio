@@ -29,8 +29,6 @@
 
 <style scoped>
     .icon {
-        position: relative;
-        float: right;
         border-radius: 50%;
         border: 2px solid #de1818;
     }

@@ -101,6 +101,7 @@
             "apptype": {
                 "da": {
                     "app": "Generel App",
+                    "component": "Komponenter",
                     "course": "Kursus",
                     "framework": "Framework",
                     "game": "Spil",
@@ -110,6 +111,7 @@
                 },
                 "en": {
                     "app": "General App",
+                    "component": "Components",
                     "course": "Course",
                     "framework": "Framework",
                     "game": "Game",
@@ -117,6 +119,16 @@
                     "pim": "PIM",
                     "tool": "Developer tool"
                 }
+            }
+        },
+        "about": {
+            "da": {
+                "header": "Portfolio for Lars Halkjær",
+                "description": "Lidt om denne portfolio"
+            },
+            "en": {
+                "header": "Portfolio for Lars Halkjær",
+                "description": "A little bit about this portfolio"
             }
         }
     },
@@ -168,15 +180,15 @@
                 "en": "Skipper & Skeeto 1"
             },
             "description": {
-                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
-                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+                "da": "<p>Magnus & Myggen er en serie (10 i alt i min tid) af edutainment- og adventurespil for børn, om muldvarpen Magnus og hans ven Myggen.</p> <p>Spillene spænder fra deciderede indlærings- og træningsspil, til mere underholdningsprægede adventurespil med elementer af læring undervejs.</p> <p>Spillene fik Børnebibliotekarenes Kulturpris, og Thor-prisen som Bedste Danske Børnespil, 3 år i træk.</p> <p>Dette første spil er udviklet i Macromedia Director, der, på det pågældende tidspunkt, var et godt kompromis mellem performance og implementeringsarbejde.</p> <p><em>Jeg implementerede denne titel alene, da jeg på dette tidspunkt udgjorde den samlede udviklingsafdeling.<br>Og jeg stod for at undersøge og udvælge udviklingsplatformen.</em></p>",
+                "en": "<p>Skipper & Skeeto is a series (10 in total in my time) of edutainment and adventure games for children, about the mole Skipper and his friend the mosquito Skeeto. </p> <p>Games range from learning and training games, to more entertainment adventure games with elements of learning along the way. </p> <p>The games received the Children's Librarians' Culture Prize, and the Thor Prize as Best Danish Children's Play, 3 years in a row. </p> <p>This first game was developed in Macromedia Director, which at the time was a good compromise between performance and implementation work. </p> <p><em>I implemented this title alone as I was the whole development department at the time. <br>And I was in charge of researching and selecting the development platform.</em></p>"
             },
             "decade":"90",
             "year":"1996",
             "image":"",
             "video":"magnus1.mp4",
             "apptype": "game",
-            "role":"developer",
+            "role":"architect",
             "resources": {"da": "", "en": ""},
             "tech":["director"]
         },
@@ -206,15 +218,15 @@
                 "en": "Skipper & Skeeto 2-6"
             },
             "description": {
-                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
-                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+                "da": "<p>Magnus & Myggen er en serie (10 i alt i min tid) af edutainment- og adventurespil for børn, om muldvarpen Magnus og hans ven Myggen.</p> <p>Spillene spænder fra deciderede indlærings- og træningsspil, til mere underholdningsprægede adventurespil med elementer af læring undervejs.</p> <p>Spillene fik Børnebibliotekarenes Kulturpris, og Thor-prisen som Bedste Danske Børnespil, 3 år i træk.</p> <p>Disse spil er udviklet i C++, 2'eren med et grafisk C++ bibliotek kaldet Media!Lab, og de efterfølgende i firmaets egen game-engine (IGL) med DirectX.</p> <p><em>I disse spil har jeg bl.a. stået for det tekniske design af game-engines, udvikling af scriptsprog-compilere, en del af implementeringen i C++, og udvikling af installationsprogrammer (samt været leder af udviklingsafdelingen).</em></p>",
+                "en": "<p>Skipper & Skeeto is a series (10 in total in my time) of edutainment and adventure games for children, about the mole Skipper and his friend the mosquito Skeeto. </p> <p>Games range from learning and training games, to more entertainment adventure games with elements of learning along the way. </p> <p>The games received the Children's Librarians' Culture Prize, and the Thor Prize as Best Danish Children's Play, 3 years in a row. </p> <p>These games are developed in C++, the second with a graphical C++ library called Media!Lab, and the following ones in the company's own game engine (IGL) using DirectX.</p> <p><em>In these games, I was (among other things) responsible for the technical design of game engines, the development of scripting language compilers, part of the implementation in C++, and the development of installers (as well as being head of the development department).</em></p>"
             },
             "decade":"90",
             "year":"1997-2000",
             "image":"",
             "video":"magnus2-4.mp4",
             "apptype": "game",
-            "role":"developer",
+            "role":"architect",
             "resources": {"da": "", "en": ""},
             "tech":["cpp"]
         },
@@ -244,8 +256,8 @@
                 "en": "LEGO Friends"
             },
             "description": {
-                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
-                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+                "da": "<p>LEGO Friends et et aktivitetsspil, primært henvendt til piger, og fokuseret omkring en gruppe af veninder, som vil lave deres eget musikshow til skolens fest. </p><p>Gennem forskellige aktiviteter, skal spillerne opbygge et musik-, danse- og sceneshow, ud fra en række præfabrikerede \"klodser\", f.eks. musik-riffs, dansetrin osv. </p><p><em>Programmet er udviklet i C++. Jeg stod for det tekniske design, det meste af implementeringen (baseret på den game-engine, der allerede var udviklet til Magnus & Myggen spillene), samt installationsprogrammer.<br> Jeg stod desuden for den tekniske koordinering med LEGO Media, herunder aftestning hos 3. parts testhouse.</em><p>",
+                "en": "<p>LEGO Friends is an activity game, primarily aimed at girls, and focused around a group of girlfriends who want to create their own music show for the school party.</p><p>Through various activities, players must build a music, dance and stage show, based on a series of prefabricated \"bricks\", for example. music riffs, dance moves, etc.</p><p><em>The program is developed in C++. I oversaw the technical design, most of the implementation (based on the game-engine that was already developed for the Skipper & Skeeto games), as well as installation programs. <br>I was also responsible for technical coordination with LEGO Media, including testing at a 3rd party test house.</em><p>"
             },
             "decade":"90",
             "year":"1999",
@@ -272,7 +284,10 @@
             "video":"",
             "apptype": "language",
             "role":"architect",
-            "resources": {"da": "", "en": ""},
+            "resources": {
+                "da": "Et par eksempler på dokumentation for ISL scriptsproget, som jeg har udarbejdet: <a href='resources/isl_guide_uddrag.pdf' target='_blank'>Uddrag af bruger guide</a> og <a href='resources/isl_fortolker_opcodes.pdf' target='_blank'>dokumentation af fortolkerens opcodes</a>.",
+                "en": "A few examples of documentation for the ISL scripting language that I have prepared: <a href='resources/isl_guide_uddrag.pdf' target='_blank'>Excerpt from user guide</a> og <a href='resources/isl_fortolker_opcodes.pdf' target='_blank'>Documentation of interpreter opcodes</a>."
+            },
             "tech":["cpp"]
         },
         {
@@ -301,17 +316,17 @@
                 "en": "SuperStarter"
             },
             "description": {
-                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
-                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+                "da": "<p>SuperStarter er et \"try & buy\" system til online salg af programmer, hvor kunden kan downloade en 30 minutters prøveversion af programmet, og derefter vælge at købe en aktiveringsnøgle på nettet, hvorved man får en fuldgyldig version.</p><p>SuperStarteren er et lille program, der downloades fra webshoppen, og som fungerer som en oversigt over alle programmer i en serie (f.eks. Magnus & Myggen spillene, som den blev udviklet til), dels med status for de forskellige spil (har kunden købt det, hvor mange minutters spilletid, er der i modsat fald tilbage på prøveversionerne, eller er det endnu ikke downloadet), dels som et kontrolpanel, hvor man nemt kan starte downloadede spil, eller købe nye i webshoppen. </p><p><em>Jeg har udviklet selve SuperStarter programmet i C++, en del af logikken bag systemet, samt API til implementering af systemet, i selve programmerne.</em></p>",
+                "en": "<p>SuperStarter is a \"try & buy\" system for online sales of programs where the customer can download a 30 minute trial version of the program, and then choose to purchase an activation key on the web, thereby getting a full-fledged version.</p><p>The SuperStarter is a small application that is downloaded from the webshop and serves as an overview of all applications in a series (e.g. The Skipper & Skeeto games for which it was developed), partly with the status of the different games (has the customer bought it, how many minutes of playing time is left on the trials or is not yet downloaded), and partly as a control panel where you can easily start downloaded games, or buy new ones in the webshop.</p><p><em>I have developed the SuperStarter program itself in C++, part of the logic behind the system as well as the API for implementing the system in the programs themselves.</em></p>"
             },
             "decade":"00",
             "year":"2002",
             "image":"superstarter.png",
             "video":"",
-            "apptype": "tool",
-            "role":"",
+            "apptype": "app",
+            "role":"architect",
             "resources": {"da": "", "en": ""},
-            "tech":[""]
+            "tech":["cpp"]
         },
         {
             "id": 11,
@@ -320,15 +335,15 @@
                 "en": "BAR Kontorindretning"
             },
             "description": {
-                "da": "<p>'BAR Kontorindretning' er beregnet på, med udgangspunkt i brugerens egen kontorindretning, at oplyse om regler og anbefalinger, for god og ergonomisk indretning af kontorer.</p><p>Brugeren indretter er kontor på skærmen, med udgangspunkt i sit eget kontor, og får undervejs en række gode råd og anbefalinger.</p><p>Til sidst kan udskrives en rapport, med alle de givne råd.</p><p> Programmet er udviklet i Flash og anvender Flash SharedObjects til at gemme brugerens indretning mellem sessioner. </p><p><em> Jeg har implementeret hele applikationen.</em></p>",
-                "en": "<p>'Bar Kontorindretning' is intended to inform about rules and recommendations for good and ergonomic layout of offices, based on the user's own office.</p><p>The user layouts an office on the screen, based on his own office, and along the way he receives a number of recommendations and good advice.</p><p>Eventually a report can be printed, with all the advice given.</p><p>Developed in Flash, the program uses Flash SharedObjects to store the user's layout between sessions.</p><p><em>I have implemented the entire application.</em></p>"
+                "da": "<p>'BAR Kontorindretning' er beregnet på, med udgangspunkt i brugerens egen kontorindretning, at oplyse om regler og anbefalinger, for god og ergonomisk indretning af kontorer.</p><p>Brugeren indretter er kontor på skærmen, med udgangspunkt i sit eget kontor, og får undervejs en række gode råd og anbefalinger.</p><p>Til sidst kan udskrives en rapport, med alle de givne råd.</p><p> Programmet er udviklet i Flash og anvender Flash SharedObjects til at gemme brugerens indretning mellem sessioner.</p><p><em>Jeg har designet interaktionen og implementeret applikationen.</em></p>",
+                "en": "<p>'Bar Kontorindretning' is intended to inform about rules and recommendations for good and ergonomic layout of offices, based on the user's own office.</p><p>The user layouts an office on the screen, based on his own office, and along the way he receives a number of recommendations and good advice.</p><p>Eventually a report can be printed, with all the advice given.</p><p>Developed in Flash, the program uses Flash SharedObjects to store the user's layout between sessions.</p><p><em>I designed the interaction and implemented the application.</em></p>"
             },
             "decade":"00",
             "year":"2004",
             "image":"",
             "video":"barkontor.mp4",
             "apptype": "app",
-            "role":"developer",
+            "role":"architect",
             "resources": {"da": "", "en": ""},
             "tech": ["flashas3"]
         },
@@ -347,7 +362,7 @@
             "image":"pfizerepios.png",
             "video":"",
             "apptype": "app",
-            "role":"developer",
+            "role":"architect",
             "resources": {"da": "", "en": ""},
             "tech": ["director", "flashas3"]
         },
@@ -358,8 +373,8 @@
                 "en": "ToonPaper"
             },
             "description": {
-                "da": "Man kan fremad se, at de har været udset til at læse, at der skal dannes par af ligheder. Dermed kan der afsluttes uden løse ender, og de kan optimeres fra oven af at formidles stort uden brug fra presse. I en kant af landet går der blandt om, at de vil sætte den over forbehold for tiden. Vi flotter med et hold, der vil rundt og se sig om i byen. Det gør heller ikke mere. Men hvor vi nu overbringer denne størrelse til det den handler om, så kan der fortælles op til 3 gange. Hvis det er træet til dit bord der får dig op, er det snarere varmen over de andre.",
-                "en": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental."
+                "da": "<p>Toonpaper er en viewer, til at præsenterer indhold på nettet, i \"bladre-bar\" form.</p><p>Brugerne kan med musen bladre i siderne som i et almindeligt blad (eller anvende navigationsknapperne på toolbaren), hoppe til et indtastet sidenummer, eller zoome ind på en side, ved at klikke på den.</p><p>Vieweren en implementeret i Flash, og data for siderne er angivet i en xml-fil, således at sider kan tilføjes og ændres i størrelse, uden at ændre i selve vieweren.</p><p><em>Jeg har designet og implementeret vieweren.</em></p>",
+                "en": "<p>Toonpaper is a viewer that presents content on the web, in \"flipable\" form.</p><p>Users can, using the mouse, flip the pages as in a regular magazine (or use the navigation buttons on the toolbar), input and jump to a page number or zoom in on a page by clicking it. </p><p>The viewer is implemented in Flash, and data for the pages is specified in an xml file so that pages can be added and resized without changing the viewer itself. </p><p><em>I have designed and implemented the viewer.</em></p>"
             },
             "decade":"00",
             "year":"2007",
@@ -404,7 +419,7 @@
             "image":"",
             "video":"mochplanning.mp4",
             "apptype": "course",
-            "role":"developer",
+            "role":"architect",
             "resources": {"da": "", "en": ""},
             "tech":["flashas3"]
         },
@@ -423,7 +438,7 @@
             "image":"",
             "video":"q8roeveren.mp4",
             "apptype": "course",
-            "role":"",
+            "role":"developer",
             "resources": {"da": "", "en": ""},
             "tech":["flashas3"]
         },
@@ -442,7 +457,7 @@
             "image":"",
             "video":"dongoffshore.mp4",
             "apptype": "course",
-            "role":"developer",
+            "role":"architect",
             "resources": {"da": "", "en": ""},
             "tech":["captivate"]
         },
@@ -480,7 +495,7 @@
             "image":"",
             "video":"modstpersondata.mp4",
             "apptype": "course",
-            "role":"developer",
+            "role":"architect",
             "resources": {"da": "", "en": ""},
             "tech":["storyline", "htmlcssjs"]
         },
@@ -536,7 +551,7 @@
             "year":"2017-2020",
             "image":"adaptplugin.png",
             "video":"",
-            "apptype": "components",
+            "apptype": "component",
             "role":"architect",
             "resources": {"da": "", "en": ""},
             "tech":["htmlcssjs"]
@@ -575,7 +590,7 @@
             "image":"adaptmod.png",
             "video":"",
             "apptype": "framework",
-            "role":"developer",
+            "role":"architect",
             "resources": {"da": "", "en": ""},
             "tech":["htmlcssjs", "nodejs"]
         },
@@ -651,7 +666,7 @@
             "image":"",
             "video":"tandmorfologi.mp4",
             "apptype": "course",
-            "role":"developer",
+            "role":"architect",
             "resources": {"da": "", "en": ""},
             "tech":["htmlcssjs"]
         }
