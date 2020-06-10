@@ -1,5 +1,6 @@
 module.exports = {
-    configureWebpack: {
-      devtool: 'source-map'
-    }
+  publicPath: '/portfolio/',
+  configureWebpack: {
+    devtool: 'source-map'
+  }
 }
