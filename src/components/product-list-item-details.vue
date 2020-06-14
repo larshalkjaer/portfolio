@@ -7,8 +7,8 @@
         <button class="backbutton" @click="onBackButtonClick()">{{this.$translation.texts.backbutton_caption[language]}}</button>
 
         <div class="product-list-item-details-info">
-            <video class="productimage" controls v-if="productitem.video">
-                <source :src="'assets/' + productitem.video" type="video/mp4">
+            <video class="productimage" :poster="'assets/' + productitem.video + '.png'" controls v-if="productitem.video">
+                <source :src="'assets/' + productitem.video + '.mp4'" type="video/mp4">
             </video>
             <img class="productimage" :src="'assets/' + productitem.image" v-else>
             <p class="description" v-html="productitem.description[language]"></p>
