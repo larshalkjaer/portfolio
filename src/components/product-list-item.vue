@@ -58,6 +58,6 @@
         height: 44px;
     }
     .techlist {
-        margin: 10px 0 20px 0;
+        margin: 10px 44px 20px 0;
     }
 </style>

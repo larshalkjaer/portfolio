@@ -35,7 +35,7 @@
 
 <style scoped>
     .techlist-list-horizontal {
-        display: inline;
+        display: inline-block;
     }
     .techlist-list-vertical {
         display: block;
