@@ -41,6 +41,10 @@
             this.$translation.texts = AppData.texts;
         },
 
+        mounted: function () {
+            this.products.reverse();
+        },
+
         data: function() {
             return {
                 currentItemID: 0,
