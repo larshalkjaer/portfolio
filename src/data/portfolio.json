@@ -246,7 +246,10 @@
             "video":"",
             "apptype": "framework",
             "role":"architect",
-            "resources": {"da": "", "en": ""},
+            "resources": {
+                "da": "Et par eksempler på dokumentation fra udviklingen af IGL, som jeg har udarbejdet: <a href='resources/igl_dd_draft.pdf' target='_blank'>Designdokument for drag and drop funktionaliteten</a> og <a href='resources/igl_dd_doc.pdf' target='_blank'>dokumentation af drag and drop funktionaliteten</a>.",
+                "en": "A few examples of documentation frem the development of the IGL: <a href='resources/igl_dd_draft.pdf' target='_blank'>Design document for drag and drop functionality</a> and <a href='resources/igl_dd_doc.pdf' target='_blank'>Documentation of drag and drop functionality</a>."
+            },
             "tech":["cpp"]
         },
         {
