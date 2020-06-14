@@ -3,7 +3,7 @@
         <div class="about-about">
             <h3>{{aboutInfo.header}}</h3>
             <button class="backbutton" @click="onBackButtonClick()">{{this.$translation.texts.backbutton_caption[language]}}</button>
-            <p>{{aboutInfo.description}}</p>
+            <div class="aboutdescription" v-html="aboutInfo.description"></div>
         </div>
 	</div>
 </template>
@@ -38,6 +38,24 @@
         margin: 10px 0 15px 0;
         cursor: pointer;
         background-color: white;
+    }
+    .aboutdescription >>> p {
+        margin-bottom: 0.6rem;
+    }
+    .aboutdescription >>> h3 {
+        font-size: 1.2rem;
+        margin: 1rem 0 0.5rem 0;
+    }
+    .aboutdescription >>> ul { 
+        list-style-type: disc; 
+        list-style-position: initial;
+        margin-left: 2rem;
+        margin-bottom: 0.6rem;
+    }
+    .aboutdescription >>> ul { 
+        list-style-type: disc; 
+        list-style-position: initial;
+        margin-left: 2rem; 
     }
     @media screen and (max-width: 768px) {
         .about-about {
