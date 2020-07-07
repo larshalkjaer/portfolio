@@ -13,6 +13,7 @@
         'delphipas': 'delphipas.png',
         'director': 'director.png',
         'flashas3': 'flashas3.png',
+        'haxe': 'haxe.png',
         'htmlcssjs': 'html5cssjs.png',
         'nodejs': 'nodejs.png',
         'storyline': 'storyline.png',

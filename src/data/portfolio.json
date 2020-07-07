@@ -67,6 +67,7 @@
                     "delphipas": "Delphi Pascal",
                     "director": "Adobe Director",
                     "flashas3": "Flash og ActionScript 3",
+                    "haxe": "Haxe",
                     "htmlcssjs": "HTML5, CSS og JavaScript",
                     "nodejs": "Node JS",
                     "storyline": "Articulate Storyline",
@@ -78,6 +79,7 @@
                     "delphipas": "Delphi Pascal",
                     "director": "Adobe Director",
                     "flashas3": "Flash and ActionScript 3",
+                    "haxe": "Haxe",
                     "htmlcssjs": "HTML5, CSS and JavaScript",
                     "nodejs": "Node JS",
                     "storyline": "Articulate Storyline",
@@ -433,8 +435,8 @@
                 "en": "Q8, The Robber"
             },
             "description": {
-                "da": "<p>Q8, Røveren var baseret på vores eFrame-framework, men introducerede en ny komponent, hvor man ud fra en video, efterfølgende kan foretage et valg, der leder til nye videoer.</p><p>Dette var et scenario der var velkendt for mig fra adventurespil-genren, og kunsten var primært at få det til at passe ind i frameworkets design, så det let kunne scriptes via XML, som de eksisterende komponenter.</p><p>Det blev i øvrigt et af de sidste kurser baseret på eFrame og Flash, så komponenten selv, fik ikke så lang levetid.</p><p><em>Jeg stod for design af nye komponenter, implementering af engine og scripting af kurset.</em></p>",
-                "en": "<p>Q8, The Robber was based on our eFrame framework, but introduced a new component where, based on a video, you can subsequently make a choice that leads to new videos.</p><p>This was a scenario familiar to me from the adventure game genre, and the challenge was primarily to get it to fit into the framework design so that it could be easily scripted via XML, as the existing components.</p><p>It was also one of the last courses based on eFrame and Flash, so the component itself didn't get as long a lifetime.</p><p><em>I was responsible for designing new components, implementing the engine and scripting the course.</em></p>"
+                "da": "<p>Q8, Røveren var baseret på vores eFrame-framework, men introducerede en ny komponent, hvor man ud fra en video, efterfølgende kan foretage et valg, der leder til nye videoer.</p><p>Dette var et scenario der var velkendt for mig fra adventurespil-genren, og kunsten var primært at få det til at passe ind i frameworkets design, så det let kunne scriptes via XML, som de eksisterende komponenter.</p><p>Det blev i øvrigt et af de sidste kurser baseret på eFrame og Flash, så komponenten selv, fik ikke så lang levetid.</p><p>Jeg porterede dele af vores Flash-framework til Haxe, for at imødekomme Flash' forestående udfasning. Jeg implementerede tilstrækkeligt til, at dette kursus kunne bygges i Haxe, men vi valgte at bruge andre værktøjer i Flash/html5 overgangsfasen, og derefter satse på et rent html5-baseret framework.</p><p><em>Jeg stod for design af nye komponenter, implementering af engine og scripting af kurset.</em></p>",
+                "en": "<p>Q8, The Robber was based on our eFrame framework, but introduced a new component where, based on a video, you can subsequently make a choice that leads to new videos.</p><p>This was a scenario familiar to me from the adventure game genre, and the challenge was primarily to get it to fit into the framework design so that it could be easily scripted via XML, as the existing components.</p><p>It was also one of the last courses based on eFrame and Flash, so the component itself didn't get as long a lifetime.</p><p>I ported parts of our Flash framework to Haxe to accommodate Flash's impending phase-out. I implemented enough for this course to be built in Haxe, but we chose to use other tools in the Flash/html5 transition phase, and then rely on a purely html5-based framework.</p><p><em>I was responsible for designing new components, implementing the engine and scripting the course.</em></p>"
             },
             "decade":"10",
             "year":"2013",
@@ -443,7 +445,7 @@
             "apptype": "course",
             "role":"developer",
             "resources": {"da": "", "en": ""},
-            "tech":["flashas3"]
+            "tech":["flashas3","haxe"]
         },
         {
             "id": 17,
