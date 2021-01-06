@@ -7,7 +7,7 @@
         <button class="backbutton" @click="onBackButtonClick()">{{this.$translation.texts.backbutton_caption[language]}}</button>
 
         <div class="product-list-item-details-info">
-            <video class="productimage" :poster="'assets/' + productitem.video + '.png'" controls v-if="productitem.video">
+            <video class="productimage" :poster="'assets/' + productitem.video + '.png'" controls v-if="showVideo">
                 <source :src="'assets/' + productitem.video + '.mp4'" type="video/mp4">
             </video>
             <img class="productimage" :src="'assets/' + productitem.image" v-else>
@@ -27,6 +27,10 @@
                 <span class="year-caption">{{this.$translation.texts.year_caption[language]}}</span>
                 <span>{{productitem.year}}</span>
             </p>
+            <p class="company">
+                <span class="company-caption">{{this.$translation.texts.company_caption[language]}}</span>
+                <span>{{this.$translation.texts.sortkeynames.company[language][productitem.company]}}</span>
+            </p>
         </div>
     </div>
 </template>
@@ -36,11 +40,18 @@
     import TechList from './tech-list.vue'
 
     export default {
-        props: ['productitem', 'language'],
+        props: ['productitem', 'language', 'showmode'],
 
         components: {
             ProductIcon,
             TechList
+        },
+
+        computed: {
+            showVideo: function()
+            {
+                return (this.productitem.company != 'moch') || ((this.showmode === 'cv') && !!this.productitem.video);
+            }
         },
 
         methods: {
@@ -114,6 +125,13 @@
         width: 100%;
         margin: 10px 0 0 0;
     }
+    .role-caption {
+        font-weight: bold;
+    }
+    .role {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
     .year-caption {
         font-weight: bold;
     }
@@ -121,10 +139,10 @@
         width: 100%;
         margin: 10px 0 0 0;
     }
-    .role-caption {
+    .company-caption {
         font-weight: bold;
     }
-    .role {
+    .company {
         width: 100%;
         margin: 10px 0 0 0;
     }

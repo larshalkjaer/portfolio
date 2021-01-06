@@ -5,7 +5,7 @@
             <page-options class="page-options" :language="language" @option-select-sort="selectSortOption($event)" @option-select-language="selectLanguageOption($event)" @about-button-clicked="setViewMode('about')"/>
         </div>
         <div class="product-list-item-details" v-if="viewmode==='details'">
-            <product-list-item-details @back-button-clicked="setViewMode('list')" :productitem="currentProductItem" :language="language" />
+            <product-list-item-details @back-button-clicked="setViewMode('list')" :productitem="currentProductItem" :language="language" :showmode="showmode"/>
         </div>
         <div class="about" v-else-if="viewmode==='about'">
             <page-about class="page-about" @back-button-clicked="setViewMode('list')" :aboutInfo="$translation.texts.about[this.language]" :language="language" />
@@ -43,6 +43,7 @@
 
         mounted: function () {
             this.products.reverse();
+            this.showmode = this.getShowMode();
         },
 
         data: function() {
@@ -51,6 +52,7 @@
                 viewmode: 'list',
                 sortingKey: 'none',
                 language: 'da',
+                showmode: '',
                 products: AppData.products
             }
         },
@@ -68,6 +70,15 @@
         },
 
         methods: {
+            getShowMode: function()
+            {
+                const uri = window.location.search.substring(1); 
+                const params = new URLSearchParams(uri);
+                const showparam = params.get("show");
+                const showmode = ['cv','li'].includes(showparam.toLowerCase()) ? showparam.toLowerCase() : '';
+                return showmode;
+            },
+
             showProductItem: function(itemid)
             {
                 this.currentItemID = itemid;
